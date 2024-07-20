@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    int maximumProduct(vector<int>& nums) {
+    int maximumProduct(vector<int>& nums){
       //we can get the maxproduct by either by multiplyng all 3 largest no or 2 -ve smallest numbers with 1st largest number
       int max1=INT_MIN, max2=INT_MIN, max3=INT_MIN;
       int min1=INT_MAX, min2=INT_MAX;
