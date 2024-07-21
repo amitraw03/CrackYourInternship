@@ -6,9 +6,10 @@ class twoStacks {
   public:
     int s[100];
     int top1=-1;
-    int top2=100;
+    int top2=100; 
     twoStacks() {}
-
+    
+     //Use array from both side indexing---------
     // Function to push an integer into the stack1.
     void push1(int x) {
         s[++top1]=x;
